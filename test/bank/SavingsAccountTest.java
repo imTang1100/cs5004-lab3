@@ -1,6 +1,6 @@
 package bank;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.;
 
 /**
  * The type Savings account test.
