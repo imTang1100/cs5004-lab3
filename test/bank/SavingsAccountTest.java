@@ -41,7 +41,7 @@ public class SavingsAccountTest {
   @org.junit.Test
   public void deposit() {
     saving2.deposit(50);
-    assertEquals(50,saving2.getBalance(),0.01);
+    assertEquals(150,saving2.getBalance(),0.01);
   }
 
   /**

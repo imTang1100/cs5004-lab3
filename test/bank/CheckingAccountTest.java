@@ -42,7 +42,7 @@ public class CheckingAccountTest {
     assertEquals(true,checking2.getBelow());
 
     checking1.deposit(20);
-    assertEquals(20,checking1.getBalance(),0.01);
+    assertEquals(220,checking1.getBalance(),0.01);
   }
 
   /**

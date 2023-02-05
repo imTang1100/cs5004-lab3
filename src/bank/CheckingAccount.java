@@ -25,7 +25,7 @@ public class CheckingAccount extends AbstractAccount {
    *
    * @return the boolean
    */
-  public boolean getBelow(){
+  public boolean getBelow() {
     return this.below100;
   }
 

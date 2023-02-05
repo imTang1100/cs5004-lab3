@@ -21,11 +21,16 @@ public abstract class AbstractAccount implements IAccount {
     this.balance = starter;
   }
 
+  /**
+   * deposit.
+   *
+   * @param deposit the deposit
+   */
   public void deposit(double deposit) throws IllegalArgumentException {
     if (deposit < 0) {
       throw new IllegalArgumentException("Deposit cannot be negative.");
     }
-    this.balance = deposit;
+    this.balance += deposit;
   }
 
   public double getBalance() {
